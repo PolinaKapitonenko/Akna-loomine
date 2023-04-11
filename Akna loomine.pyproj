@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6b407f1f-573a-45b6-a881-c054615789a0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Akna_loomine.py</StartupFile>
+    <StartupFile>1 ülesane.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Akna_loomine.py" />
+    <Compile Include="1osa_akna.py" />
+    <Compile Include="1 ülesane.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Poke_Ball.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
