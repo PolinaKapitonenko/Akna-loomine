@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6b407f1f-573a-45b6-a881-c054615789a0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>1 ülesane.py</StartupFile>
+    <StartupFile>2 osa.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,8 +23,11 @@
   <ItemGroup>
     <Compile Include="1osa_akna.py" />
     <Compile Include="1 ülesane.py" />
+    <Compile Include="2 ülesanne.py" />
+    <Compile Include="2 osa.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ivi2.png" />
     <Content Include="Poke_Ball.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
