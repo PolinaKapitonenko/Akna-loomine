@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6b407f1f-573a-45b6-a881-c054615789a0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>liikumisjoon.py</StartupFile>
+    <StartupFile>Ülesanne 4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,7 @@
     <Compile Include="2 ülesanne.py" />
     <Compile Include="maja.py" />
     <Compile Include="liikumisjoon.py" />
+    <Compile Include="Ülesanne 4.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="android.mp3" />
