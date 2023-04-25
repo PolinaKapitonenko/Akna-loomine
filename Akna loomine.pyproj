@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6b407f1f-573a-45b6-a881-c054615789a0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>games.py</StartupFile>
+    <StartupFile>liikumisjoon.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,10 +24,11 @@
     <Compile Include="1osa_akna.py" />
     <Compile Include="1 ülesane.py" />
     <Compile Include="2 ülesanne.py" />
-    <Compile Include="2 osa.py" />
-    <Compile Include="games.py" />
+    <Compile Include="maja.py" />
+    <Compile Include="liikumisjoon.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="android.mp3" />
     <Content Include="ivi2.png" />
     <Content Include="Poke_Ball.png" />
   </ItemGroup>

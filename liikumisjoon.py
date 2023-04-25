@@ -1,5 +1,5 @@
 ﻿import pygame,sys,random
-
+pygame.mixer.Sound
 pygame.init()
 
 def Liikumine():
@@ -62,4 +62,10 @@ while not lopp:
     ekraan.blit(mesilane,(posX,posY))
     pygame.display.flip()
     ekraan.fill(kollane)
+
+pygame.mixer.music.load('music/android.mp3')
+pygame.mixer.music.play(0)
+hit_sound = pygame.mixer.Sound("android.mp3")
+pygame.mixer.Sound.play(hit_sound)
+
 pygame.quit()

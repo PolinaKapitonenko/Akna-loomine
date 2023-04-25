@@ -1,4 +1,6 @@
 ﻿import pygame
+import random
+import sys
 
 pygame.init()
 ekraani_pind=pygame.display.set_mode((640,480))#создает окно размеров в скобках 
