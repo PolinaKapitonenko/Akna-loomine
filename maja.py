@@ -15,7 +15,7 @@ def Uks(x,y,laius,kõrgus,pind,värv):
 
 
 
-def akn(x,y,laius,kõrgus,pind,värv):
+def Akn(x,y,laius,kõrgus,pind,värv):
     punktid=[(x,y),(x,y-kõrgus),(x+laius,y-kõrgus),(x+laius,y),(x,y)]
     suurus=random.randint(1,10)
     pygame.draw.lines(pind,värv,True,punktid,suurus)
@@ -43,7 +43,7 @@ pind.fill(fon)
 
 Maja(50,350,450,400,pind,majavärv)
 Uks(50,350,250,400,pind,majavärv)
-akn(235,90,80,40,pind,majavärv)  
+Akn(235,90,80,40,pind,majavärv)  
 pygame.display.flip()
 
 
