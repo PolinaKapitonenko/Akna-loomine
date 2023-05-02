@@ -56,9 +56,9 @@ while not gameover:
             Korvi_X+=10
         elif event.type==pygame.KEYDOWN:
             if event.key==pygame.K_LEFT:
-                Korvi_X-=25
+                Korvi_X-=30
             elif event.key==pygame.K_RIGHT:
-                Korvi_X+=25
+                Korvi_X+=30
 
     Õun_Y += Õuna_kiirus
 
