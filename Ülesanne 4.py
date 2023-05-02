@@ -23,12 +23,12 @@ Korvi_kõrgus = 30
 Korvi_X = X // 2 - Korvi_laius // 2
 Korvi_Y = Y // 1.5
 
-Õuna_kiirus = 3 #Скорость падения яблок.
+Õuna_kiirus = 3 #Скорость яблок.
 
 enemies=[]
 
 screen = pygame.display.set_mode((X, Y))
-pygame.display.set_caption("Õuna ja korviga mängimine")
+pygame.display.set_caption("Õun")
 
 õuna_pilt = pygame.image.load("oun.png")  # для яблока
 korvi_pilt = pygame.image.load("vinni.png")  # для корзины
@@ -56,9 +56,9 @@ while not gameover:
             Korvi_X+=10
         elif event.type==pygame.KEYDOWN:
             if event.key==pygame.K_LEFT:
-                Korvi_X-=5
+                Korvi_X-=25
             elif event.key==pygame.K_RIGHT:
-                Korvi_X+=5
+                Korvi_X+=25
 
     Õun_Y += Õuna_kiirus
 
