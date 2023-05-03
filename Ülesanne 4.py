@@ -13,7 +13,7 @@ Kollane = (255, 255, 0)
 
 les=pygame.image.load("free.png")
 
-Õuna_suurus = 20
+Õuna_suurus = 30
 Korvi_laius = 30
 Korvi_kõrgus = 30
 
