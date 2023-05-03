@@ -24,7 +24,6 @@ Korvi_X = X // 2 - Korvi_laius // 2
 Korvi_Y = Y // 1.5
 
 Õuna_kiirus = 3 #Скорость яблок.
-
 enemies=[]
 
 screen = pygame.display.set_mode((X, Y))
